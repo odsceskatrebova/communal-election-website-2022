@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "parser": "babel-eslint"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "vue/script-indent": ["error", 4, { "baseIndent": 1 }],
+    "vue/html-indent": ["error", 4, { "baseIndent": 1 }],
+    "semi": "error",
+    "no-useless-escape": "off"
+  }
+}
