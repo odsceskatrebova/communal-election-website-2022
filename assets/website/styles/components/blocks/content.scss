@@ -1,0 +1,13 @@
+.content {
+  max-width: $pageMaxWidth;
+  margin: auto;
+  background: $backgroundLightGradient;
+  padding-bottom: 3rem;
+  .container {
+    z-index: 100;
+    position: relative;
+    max-width: $containerMaxWidth;
+    margin: auto;
+    padding: 0 $pagePaddingMobile;
+  }
+}

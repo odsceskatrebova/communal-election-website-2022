@@ -1,0 +1,15 @@
+@import 'variables/sizes';
+@import 'variables/colors';
+
+@import 'base/normalization';
+@import 'base/typography';
+
+@import 'components/layout/header';
+@import 'components/layout/footer';
+
+@import "components/blocks/hero";
+@import "components/blocks/content";
+@import "components/blocks/section-header";
+@import "components/blocks/gallery-grid";
+
+@import "components/elements/btn";

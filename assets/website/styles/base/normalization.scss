@@ -1,0 +1,45 @@
+html {
+  font-size: 15px;
+}
+
+body, p, h1, h2, h3, h4, h5 {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin: 0;
+  padding: 0;
+  font-family: Gotham,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  position: relative;
+}
+
+body {
+  color: #ffffff;
+  background: #222222;
+  background-size: 100% auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  margin: auto;
+  max-width: 100%;
+  display: block;
+}
+
+picture {
+  display: block;
+  position: relative;
+  padding-bottom: 66%;
+  img {
+    position: absolute;
+    object-fit: cover;
+    object-position: center center;
+    width: 100%;
+    height: 100%;
+    &.size-1x2 {
+      padding-bottom: 132%;
+    }
+  }
+}

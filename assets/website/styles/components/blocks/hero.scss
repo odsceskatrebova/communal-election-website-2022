@@ -1,0 +1,15 @@
+.hero {
+  max-width: $pageMaxWidth;
+  position: relative;
+  margin: 0 auto 0;
+  .background {
+    height: 60vh;
+    background: url("../../../img/hero-background.jpg");
+    background-size: cover;
+  }
+  @media (min-width: $mobileBreakpoint) {
+    .background {
+      height: 80vh;
+    }
+  }
+}

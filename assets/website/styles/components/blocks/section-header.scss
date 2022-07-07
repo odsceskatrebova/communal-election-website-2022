@@ -1,0 +1,28 @@
+.content{
+  .section-header {
+    margin-top: 3rem;
+    z-index: 12;
+    position: relative;
+    &.first {
+      margin-top: 0;
+    }
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transform: skewY(-6deg);
+      background: $backgroundDarkGradient;
+    }
+    .container {
+      max-width: $containerMaxWidth;
+      padding: 5rem $pagePaddingMobile calc(6% + 5rem);
+      margin: auto auto calc(-6% - 5rem);
+      h2 {
+        text-align: center;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

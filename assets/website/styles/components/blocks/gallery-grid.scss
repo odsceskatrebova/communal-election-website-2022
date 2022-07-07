@@ -1,0 +1,25 @@
+.content{
+  .gallery {
+    z-index: 100;
+    position: relative;
+    max-width: $containerMaxWidth;
+    margin: auto;
+    padding-bottom: 3rem;
+    display: grid;
+    gap: 2rem;
+    padding: $pagePaddingMobile;
+    .block {
+      text-align: center;
+      .move-top {
+        position: relative;
+        top: -3rem;
+      }
+    }
+    @media (min-width: 45rem) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media (min-width: 70rem) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

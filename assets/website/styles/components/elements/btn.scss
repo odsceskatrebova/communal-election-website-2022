@@ -1,0 +1,26 @@
+.btn {
+  padding: .6rem;
+  transform:skewY(-6deg);
+  display: inline-block;
+  box-shadow: $buttonShadow;
+  font-size: 1.1rem;
+  line-height: 90%;
+  margin: .1rem;
+  font-weight: 700;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1) skewY(-7deg);
+  }
+  &.secondary {
+    background: #ffffff;
+    color: $textDarkBlue;
+  }
+  &.primary {
+    background: $textLightBlue;
+    color: $textDarkBlue;
+  }
+  &.large {
+    font-size: 1.3rem;
+  }
+
+}
