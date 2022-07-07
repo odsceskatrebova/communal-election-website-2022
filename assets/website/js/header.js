@@ -4,7 +4,7 @@ const headerWrapper = document.querySelector('.header-wrapper');
 document.addEventListener('scroll', (e)=>{
   let rect = headerWrapper.getBoundingClientRect();
   console.log(headerWrapper.offsetTop);
-  if(rect.top < -50 ) {
+  if(rect.top < -80 ) {
     headerWrapper.classList.add('fixed');
   } else {
     headerWrapper.classList.remove('fixed');

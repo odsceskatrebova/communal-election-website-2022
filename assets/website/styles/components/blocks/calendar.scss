@@ -1,0 +1,42 @@
+.content {
+  .calendar {
+    padding: 10rem $pagePaddingDesktop;
+    text-align: center;
+    .date {
+      padding: $pagePaddingDesktop $pagePaddingMobile $pagePaddingMobile;
+      display: inline-block;
+      text-align: center;
+      transform: skewY(-6deg);
+      .day {
+        display: inline-block;
+        line-height: 6rem ;
+        font-size: 4rem;
+        font-weight: 900;
+        width: 6rem;
+        background: #ffffff;
+        color: $textDarkBlue;
+        box-shadow: $buttonShadow;
+      }
+      .month {
+        font-size: 3rem;
+        line-height: 100%;
+        padding-top: .5rem;
+        text-transform: uppercase;
+        font-weight: 900;
+      }
+      .year {
+        font-size: 2rem;
+        line-height: 100%;
+        color: $textLightBlue;
+        font-weight: 900;
+      }
+    }
+    .event {
+      transform: skewY(-6deg);
+      font-weight: 900;
+      h3 {
+        color: $textLightBlue;
+      }
+    }
+  }
+}

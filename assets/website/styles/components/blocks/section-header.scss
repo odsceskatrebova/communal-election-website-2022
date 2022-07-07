@@ -1,10 +1,12 @@
 .content{
   .section-header {
-    margin-top: 3rem;
     z-index: 12;
     position: relative;
+    margin: 3rem auto 0;
+    max-width: calc($containerMaxWidth + 20rem);
     &.first {
       margin-top: 0;
+      max-width: none;
     }
     .background {
       position: absolute;
