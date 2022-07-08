@@ -1,7 +1,10 @@
 .header-wrapper {
-  margin: -6% auto -.1rem;
-  min-height: 13rem;
   position: relative;
+  margin: 0 auto;
+  &.homepage {
+    margin: -6% auto -.1rem;
+    min-height: 13rem;
+  }
   .header-fixer {
     margin: 0 auto;
     header {

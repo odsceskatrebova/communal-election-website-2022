@@ -1,5 +1,8 @@
 footer {
   padding-top: 10rem;
+  max-width: $pageMaxWidth;
+  margin: auto;
+  background: $backgroundLightGradient;
  .grid {
    display: grid;
    margin: auto;

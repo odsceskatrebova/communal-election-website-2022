@@ -3,6 +3,14 @@
   margin: auto;
   background: $backgroundLightGradient;
   padding-bottom: 3rem;
+  padding-top: calc( 12% + 8rem);
+  min-height: 200vh;
+  &.homepage {
+    padding-top: 0;
+  }
+  @media (min-width: $mobileBreakpoint) {
+    padding-top: calc( 14rem);
+  }
   .container {
     z-index: 100;
     position: relative;
