@@ -6,46 +6,13 @@
     </div>
 </div>
 <div class="gallery">
-    <div class="block">
-        <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
-        <span class="move-top">
-            <div class="btn secondary">Školy & Školky</div> <br>
-            <div class="btn primary large">Opravujeme</div>
-        </span>
-    </div>
-    <div class="block">
-        <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
-        <span class="move-top">
-            <div class="btn secondary">Nádraží</div> <br>
-            <div class="btn primary large">Nezavřeme</div>
-        </span>
-    </div>
-    <div class="block">
-        <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
-        <span class="move-top">
-                    <div class="btn secondary">Nádraží</div> <br>
-                    <div class="btn primary large">Nezavřeme</div>
-                </span>
-    </div>
-    <div class="block">
-        <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
-        <span class="move-top">
-                    <div class="btn secondary">Nádraží</div> <br>
-                    <div class="btn primary large">Nezavřeme</div>
-                </span>
-    </div>
-    <div class="block">
-        <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
-        <span class="move-top">
-                    <div class="btn secondary">Nádraží</div> <br>
-                    <div class="btn primary large">Nezavřeme</div>
-                </span>
-    </div>
-    <div class="block">
-        <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
-        <span class="move-top">
-                    <div class="btn secondary">Nádraží</div> <br>
-                    <div class="btn primary large">Nezavřeme</div>
-                </span>
-    </div>
+    {% for element in randomDone  %}
+        <a href="{{ path(element.path) }}" class="block link">
+            <img src="{{ asset(element.photo) }}" alt="">
+            <div class="move-top">
+                <div class="btn secondary">{{ element.text[0] }}</div> <br>
+                <div class="btn primary large">{{ element.text[1] }}</div>
+            </div>
+        </a>
+    {% endfor %}
 </div>
