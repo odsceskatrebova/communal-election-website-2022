@@ -10,8 +10,8 @@
         <a href="{{ path(element.path) }}" class="block link">
             <img src="{{ asset(element.photo) }}" alt="">
             <div class="move-top">
-                <div class="btn secondary">{{ element.text[0] }}</div> <br>
-                <div class="btn primary large">{{ element.text[1] }}</div>
+                <div class="btn secondary">{{ element.text[0]|raw }}</div> <br>
+                <div class="btn primary large">{{ element.text[1]|raw }}</div>
             </div>
         </a>
     {% endfor %}
