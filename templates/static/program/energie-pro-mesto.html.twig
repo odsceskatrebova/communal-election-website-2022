@@ -1,0 +1,23 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>ENERGIE PRO MĚSTO</h1>
+        <p>Na vybrané městské budovy (školská zařízení, sportoviště i kulturní zařízení) chceme v souladu s regulativy
+            města osadit fotovoltaické panely se zásobníky, abychom snížili závislost na fosilních zdrojích.</p>
+        <p>Chceme začít dlouhodobě pracovat na konceptech, které jsou často až stoprocentně podporované státem.</p>
+        <p>Prosazujeme kompletní výměnu pouličního osvětlení za úspornou LED variantu s noční regulací pro snížení
+            energetické náročnosti.</p>
+        <p>Navrhujeme pokračovat ve výměně vnitřního osvětlení městských budov a budov městských společností, včetně
+            škol. Analyzovali jsme možnost úspor až 40 % nákladů.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

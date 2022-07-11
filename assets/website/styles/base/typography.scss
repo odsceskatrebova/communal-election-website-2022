@@ -8,7 +8,7 @@ a {
 }
 p {
   width: 100%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 150%;
   margin: auto auto 1rem;
 }
@@ -72,6 +72,17 @@ hr {
   text-align: center;
 }
 
+.text-highlight {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+  //padding: .4rem .2rem;
+  //display: inline-block;
+  //background: $textLightBlue;
+  //box-shadow: $buttonShadow;
+
+}
 
 h1.with-subheader,
 h2.with-subheader,

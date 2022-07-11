@@ -1,0 +1,27 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>Kulturní a sportovní město</h1>
+
+        <p>Naší prioritou je přestavba areálu Svářečské školy v novou moderní městskou knihovnu.</p>
+        <p>Staticky zajistíme a dostavíme Malou scénu.</p>
+        <p>Budovu Kulturního centra vybavíme klimatizací.</p>
+
+        <p>Zasadíme se o rekonstrukci krytého bazénu – snížíme jeho energetickou náročnost formou solárního ohřevu vody,
+            zatraktivníme venkovní prostory.</p>
+        <p>Postavíme důstojné zázemí pro hokejbalový stadion.</p>
+        <p>Podpoříme výstavbu zázemí pro atletický stadion.</p>
+        <p>Zajistíme rekonstrukci a zatraktivnění sportovního areálu Hory.</p>
+        <p>Zmodernizujeme zázemí areálu Peklák.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

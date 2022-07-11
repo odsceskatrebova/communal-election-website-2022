@@ -1,0 +1,25 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>MĚSTO CHODCŮ A ŘIDIČŮ</h1>
+        <p>Trváme na stavbě obchvatu města ve spojení s přivaděčem R35.</p>
+        <p>Budeme pokračovat v rekonstrukcích vozovek i chodníků ve městě.</p>
+        <p>Prosadíme zřízení rezidenčního stání vymezeného modrými pruhy po vzoru větších měst.</p>
+        <p>Rozšíříme počty parkovacích míst na sídlišti Trávník.</p>
+        <p>Vybudujeme záchytné parkoviště ve Slovanské ulici u Korada a nové parkoviště na Trubech.</p>
+        <p>Jako součást rekonstrukce Nového náměstí navrhujeme dvoupatrové podzemní parkoviště.</p>
+        <p>Prosadíme jednosměrný provoz ve vybraných ulicích, tím získáme nová parkovací místa (kolmá/podélná).</p>
+        <p>Dlouhodobě prosazujeme vybudování cyklostezky Čtverec – sídliště Lhotka podél MŠ U Stadionu, krytého bazénu a
+            ZŠ Ústecká.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

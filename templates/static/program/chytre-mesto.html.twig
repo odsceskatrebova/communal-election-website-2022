@@ -1,0 +1,27 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>CHYTRÉ MĚSTO</h1>
+        <p>Budujme chytré město chytře!</p>
+
+        <p>   Prosazujeme možnost zaplatit všude <span class="text-highlight">platební kartou</span>, nikoliv kartou
+            předplacenou.</p>
+        <p>Trváme na důsledné práci se strategickým a akčním plánem města. Chceme pravidelně aktualizovat priority a
+            provázání záměrů s dotační politikou tak, abychom měli projekty včas připravené v plném rozsahu.</p>
+        <p>Stojíme za zřízením pracovního místa koordinátora dotačních programů, který je bude aktivně vyhledávat.</p>
+        <p>Zasadíme se o využití dotací v maximální možné míře. Do roku 2028 je možné naposledy využívat dotace z EU
+            v plné míře jako dosud. Nechceme o tuto možnost přijít, proto soustředíme pozornost primárně na úsporu
+            energie ve městě, budování dopravní infrastruktury, rozvoj současných městských zařízení a bydlení dle
+            předchozích kapitol našeho programu.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

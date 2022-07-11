@@ -1,0 +1,31 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>ČISTÉ MĚSTO</h1>
+        <p>Navýšíme počet míst na tříděný odpad společně s počtem komodit pro třídění. V roce 2022 se ve městě
+            realizovaly úpravy a rozšíření kontejnerových stání za 2 mil. Kč.</p>
+
+        <p>Po dlouhých 15 letech se nám podařilo prosadit zavedení sběru tříděného odpadu přímo z domácností. Nádoby na
+            třídění jsme nakoupili za cca 7 mil. Kč.</p>
+        <p>Podporujeme výstavbu dotřiďovací linky v areálu skládky Třebovice.</p>
+        <p>Prosadili jsme studii proveditelnosti zařízení na energetické využití směsného komunálního odpadu. Ve
+            výstavbě zařízení chceme i nadále pokračovat, abychom směsný komunální odpad energeticky využili.</p>
+        <p>Zajistili jsme výstavbu kompostárny v areálu skládky Třebovice za bezmála 50 mil. Kč.</p>
+        <p>Prosadili jsme, že do systému odpadového hospodářství mohou vstupovat i právnické subjekty.</p>
+        <p>Stali jsme se vzorem a pilotním projektem pro další města v republice.</p>
+        <p>Po letech soukromého provozu krematorium převzala společnost EkoBi. Upravili jsme jeho provoz. Do objektu
+            jsme investovali 18,7 mil. Kč (včetně nové kremační linky schválené v rozpočtu města na letošní rok).</p>
+        <p>Od 90. let jsme prosazovali, aby městem vlastněná Vodárenská společnost provozovala vodovody a kanalizace v
+            našem městě. Toto jsme splnili!</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

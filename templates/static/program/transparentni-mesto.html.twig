@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>TRANSPARENTNÍ MĚSTO</h1>
+        <p>Již několik volebních období prosazujeme osobní zodpovědnost vedení a rady města za práci jednotlivých odborů
+            městského úřadu, což jsme v plné míře v posledním období dodrželi. Trváme na tom i nadále.</p>
+        <p>Chceme, aby občané byli srozumitelně informováni o dění na radnici a znali důvody jednotlivých rozhodnutí
+            města. V posledních 4 letech jsme toto důsledně dodržovali. Podporovali jsme veřejná projednávání a
+            k informování veřejnosti jsme využívali sociální sítě, celostátní i místní tisk (Českotřebovské noviny,
+            Zpravodaj).</p>
+        <p>Zavedli jsme participativní rozpočet pro Českou Třebovou ve výši 0,5 mil. Kč.</p>
+        <p>Navýšili jsme položky participativního rozpočtu přidružených obcí ze 400 tis. Kč na 500 tis. Kč (o využití
+            rozhodují osadní výbory). Pro další období navrhujeme navýšení celkové sumy všech participativních rozpočtů
+            o 20% na 600 tis. Kč.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

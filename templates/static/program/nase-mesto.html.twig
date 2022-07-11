@@ -1,0 +1,30 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>NAŠE MĚSTO - MŮJ DOMOV</h1>
+        <p>Podpoříme smysluplné developerské projekty výstavby bytů a domů ve městě (areál Primony, ul. Husova, lokalita
+            Orlík a Rudoltičky…)</p>
+        <p>Budeme partnery individuální výstavbě rodinných domů (areál Letního kina, bývalého zahradnictví, lokality Pod
+            Březinou…)</p>
+        <p>Navrhujeme zachovat administrativní budovu v bývalém areálu firmy Böhm Plast technik v Bezděkově a adaptovat
+            ji pro náš dlouhodobý plán Penzionu pro osamělé seniory, resp. Penzionu pro matky s dětmi.</p>
+        <p>Objekt bývalé pošty v Klácelově ulici doporučujeme prodat a získané prostředky vložit do Fondu rozvoje
+            bydlení.</p>
+        <p>Lokalitu bývalého koupaliště v Křivolíku chceme zachovat jako zónu pro odpočinek a rekreaci. Vzniknout by zde
+            mohlo například knajpoviště, koupání pro otužilce, park Křivolík respektující lokalitu a vodní plochy
+            Pivovarského rybníka a Panamáku.</p>
+        <p>V majetku města chceme udržet byty ve Čtverci a sociální byty.</p>
+        <p>I nadále budeme naplňovat náš dlouhodobý cíl rozvoje městských sídlišť tak, aby splňovala současné požadavky
+            na bydlení, klidové zóny, hřiště, osvětlení, parkování apod.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

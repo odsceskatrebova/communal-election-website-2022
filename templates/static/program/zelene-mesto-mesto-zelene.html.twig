@@ -1,0 +1,22 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>ZELENÉ MĚSTO - MĚSTO ZELENĚ</h1>
+
+        <p>Dokončíme úpravy parku u krematoria.</p>
+        <p>Revitalizujeme parky Na Zámostí, Kobylí důl, Bezděkov i oblast Hlubočku.</p>
+        <p>V Javorce vybudujeme nový veřejně přístupný pavilon.</p>
+        <p>Na louce v Javorce pod horním vodárenským objektem vytvoříme dle zájmu rodičů Sad novorozeňat z okrasných
+            ovocných stromů.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

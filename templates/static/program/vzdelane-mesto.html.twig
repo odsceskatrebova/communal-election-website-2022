@@ -1,0 +1,33 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <h1>Vzdělané město</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu condimentum neque, egestas volutpat libero. Mauris ultricies aliquam lorem sit amet finibus. Nulla facilisi. Sed congue erat imperdiet quam bibendum, in dapibus quam ornare. Etiam eu orci elementum, hendrerit enim ut, consequat purus. Nunc posuere aliquet ipsum, et mollis eros consequat in. Pellentesque sed efficitur enim. Nullam bibendum augue vitae sagittis porta. Morbi volutpat sem ut justo gravida, id volutpat elit eleifend.
+        </p>
+
+        <br><br><br>
+
+        <p>Dokončíme opravy školských zařízení a zajistíme jejich pravidelnou údržbu.</p>
+        <p>Přispějeme školám na mzdy asistentů pedagogů, speciálních pedagogů a školních psychologů.</p>
+        <p>Podpoříme modernizaci učeben.</p>
+        <p>Vyčleníme prostředky na nákup inovativních a inspirativních pomůcek a výukových materiálů.</p>
+        <p>Podpoříme zapojení informačních technologií napříč všemi předměty.</p>
+        <p>Zasadíme se o zřízení venkovních učeben.</p>
+        <p>Podpoříme umělecké, sportovní a volnočasové aktivity žáků.</p>
+        <p>Zajistíme nepřetržitý provoz alespoň jedné MŠ i během letních prázdnin.</p>
+        <p>Dle možností města podpoříme i krajská a soukromá školská zařízení.</p>
+        <p>Zahájíme diskusi o lepších prostorech pro ZUŠ a DDM, které by vyhovovaly moderním potřebám těchto
+            zařízení.</p>
+
+        <div style="height: 20rem"></div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

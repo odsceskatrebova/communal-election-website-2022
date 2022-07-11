@@ -40,6 +40,7 @@
           color: $textLightBlue;
         }
         &:hover {
+          text-decoration: none;
           transition: all .2s;
           position: relative;
           background: $textLightBlue;
@@ -47,9 +48,11 @@
           transform: scale(1.2);
           h3 {
             color: $textDarkBlue;
+            text-decoration: none;
           }
           p {
             color: #ffffff;
+            text-decoration: none;
           }
         }
       }
