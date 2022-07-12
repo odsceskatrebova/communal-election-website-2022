@@ -5,7 +5,10 @@
     max-width: $containerMaxWidth;
     margin: auto;
     padding-bottom: 3rem;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
     gap: 2rem;
     padding: $pagePaddingMobile;
     .block {
@@ -16,10 +19,14 @@
       }
     }
     @media (min-width: 45rem) {
-      grid-template-columns: repeat(2, 1fr);
+      .block {
+        width: calc(50% - 1rem);
+      }
     }
     @media (min-width: 70rem) {
-      grid-template-columns: repeat(3, 1fr);
+      .block {
+        width: calc(33.33% - 1.4rem);
+      }
     }
   }
 }
