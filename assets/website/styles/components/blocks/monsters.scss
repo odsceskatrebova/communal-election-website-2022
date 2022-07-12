@@ -8,10 +8,23 @@
     justify-content: center;
     gap: 1rem;
     row-gap: 3rem;
+    .monster {
+    }
     &.big {
       .monster {
         text-align: center;
         width: 32%;
+        transition: all .2s;
+        position: relative;
+        z-index: 50;
+        &:hover {
+          z-index: 100;
+          text-decoration: none;
+          background: $textLightBlue;
+          color: $textDarkBlue;
+          outline: 20px $textLightBlue solid;
+          transform: scale(1.1);
+        }
       }
     }
     &.small {
