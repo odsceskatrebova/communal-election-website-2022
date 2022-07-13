@@ -18,6 +18,19 @@
         top: -3rem;
       }
     }
+    a.block {
+      transition: all .2s;
+      position: relative;
+      z-index: 50;
+      &:hover {
+        z-index: 100;
+        text-decoration: none;
+        background: $textLightBlue;
+        color: $textDarkBlue;
+        outline: 20px $textLightBlue solid;
+        transform: scale(1.1);
+      }
+    }
     @media (min-width: 45rem) {
       .block {
         width: calc(50% - 1rem);

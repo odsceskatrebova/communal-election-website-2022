@@ -1,16 +1,58 @@
 footer {
   padding-top: 10rem;
+  padding-bottom: 10rem;
   max-width: $pageMaxWidth;
   margin: auto;
   background: $backgroundLightGradient;
+  a {
+    transition: all .2s;
+    position: relative;
+    z-index: 50;
+
+    &:hover {
+      z-index: 100;
+      text-decoration: none;
+      background: $textLightBlue;
+      color: $textDarkBlue;
+      outline: 20px $textLightBlue solid;
+      transform: scale(1.1);
+    }
+  }
+  .socnets {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    margin: 5rem $pagePaddingMobile;
+
+    a {
+      img {
+        height: 3rem;
+      }
+    }
+  }
  .grid {
    display: grid;
    margin: auto;
    max-width: $containerMaxWidth;
-   padding: 0 $pagePaddingDesktop 8rem ;
+   padding: 0 $pagePaddingDesktop ;
    grid-template-columns: repeat(2, 1fr);
    .github {
      text-align: left;
+     vertical-align: center;
+     a {
+       display: inline-flex;
+       align-items: center;
+       justify-content: start;
+       span {
+         line-height: 2rem;
+       }
+       img {
+         width: 2rem;
+         display: inline-block;
+         margin-left: 0;
+         margin-right: 1rem;
+       }
+     }
    }
    .copy {
      text-align: right;
