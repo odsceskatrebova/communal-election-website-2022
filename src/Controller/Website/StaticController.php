@@ -402,7 +402,7 @@ class StaticController extends AbstractController
             $selected[] = $array[$key];
             unset($array[$key]);
         }
-        dump($selected);
+//        dump($selected);
 
         return $selected;
     }
