@@ -3,6 +3,7 @@ footer {
   padding-bottom: 10rem;
   max-width: $pageMaxWidth;
   margin: auto;
+  padding: $pagePaddingMobile;
   background: $backgroundLightGradient;
   a {
     transition: all .2s;

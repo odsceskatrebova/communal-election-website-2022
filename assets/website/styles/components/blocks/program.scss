@@ -45,7 +45,6 @@
           position: relative;
           background: $textLightBlue;
           box-shadow: $buttonShadow;
-          transform: scale(1.2);
           h3 {
             color: $textDarkBlue;
             text-decoration: none;
@@ -62,6 +61,17 @@
     .container {
       .grid {
         grid-template-columns: repeat(2,1fr);
+      }
+    }
+  }
+  @media (min-width: calc($containerMaxWidth + 10rem)) {
+    .container {
+      .grid {
+        .point {
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
       }
     }
   }

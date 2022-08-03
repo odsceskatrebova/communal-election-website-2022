@@ -23,12 +23,8 @@
       position: relative;
       z-index: 50;
       &:hover {
-        z-index: 100;
-        text-decoration: none;
         background: $textLightBlue;
-        color: $textDarkBlue;
         outline: 20px $textLightBlue solid;
-        transform: scale(1.1);
       }
     }
     @media (min-width: 45rem) {
@@ -39,6 +35,16 @@
     @media (min-width: 70rem) {
       .block {
         width: calc(33.33% - 1.4rem);
+      }
+    }
+    @media (min-width: calc($containerMaxWidth + 10rem)) {
+      a.block {
+        &:hover {
+          z-index: 100;
+          text-decoration: none;
+          color: $textDarkBlue;
+          transform: scale(1.1);
+        }
       }
     }
   }

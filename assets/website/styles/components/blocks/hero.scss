@@ -3,13 +3,14 @@
   position: relative;
   margin: 0 auto 0;
   .background {
-    height: 60vh;
-    background: url("../../../img/hero-background.jpg");
+    background: url("../../../img/heroes/hero_3.jpg") top center;
     background-size: cover;
+    min-height: 80vh;
   }
-  @media (min-width: $mobileBreakpoint) {
+  @media (max-aspect-ratio: 5/4) {
     .background {
-      height: 80vh;
+      min-height: auto;
+      padding-bottom: 66%;
     }
   }
 }

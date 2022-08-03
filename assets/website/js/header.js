@@ -1,4 +1,6 @@
 const headerWrapper = document.querySelector('.header-wrapper');
+const menuToggl = document.querySelector('.menu-toggl');
+const nav = document.querySelector('nav');
 // const headerFixer = document.querySelector('.header-fixer');
 
 document.addEventListener('scroll', (e)=>{
@@ -11,4 +13,9 @@ document.addEventListener('scroll', (e)=>{
       headerWrapper.classList.remove('fixed');
     }
   }
+});
+
+
+menuToggl.addEventListener('click', () => {
+  nav.classList.toggle('show');
 });

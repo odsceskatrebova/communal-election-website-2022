@@ -84,7 +84,7 @@ class StaticController extends AbstractController
             'weight' => 100,
         ],
         [
-            'text' => [ 'Areál Peklák','Investice za&nbsp;22.7m&nbsp;Kč' ],
+            'text' => [ 'Areál Peklák a minikemp','Investice za&nbsp;22.7m&nbsp;Kč' ],
             'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_done/DSC_7864.jpg',
             'weight' => 100,

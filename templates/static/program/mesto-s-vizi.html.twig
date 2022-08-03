@@ -3,15 +3,18 @@
 {% block content %}
     {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
     <div class="content">
-        <h1>Město s vizí</h1>
+        <div class="container">
 
-        <p>Máme vizi živé České Třebové.</p>
+            <h1>Město s vizí</h1>
 
-        <p>Jsme zodpovědní, nikoli populističtí.</p>
-        <p>V letech 2018 – 2022 bylo v České Třebové investováno 500 milionů korun kromě běžných oprav a údržby.</p>
-        <p>Naše vize se jmenuje: MĚSTO PRO ŽIVOT!</p>
+            <p>Máme vizi živé České Třebové.</p>
 
-        <div style="height: 20rem"></div>
+            <p>Jsme zodpovědní, nikoli populističtí.</p>
+            <p>V letech 2018 – 2022 bylo v České Třebové investováno 500 milionů korun kromě běžných oprav a údržby.</p>
+            <p>Naše vize se jmenuje: MĚSTO PRO ŽIVOT!</p>
+
+            <div style="height: 20rem"></div>
+        </div>
 
         {% include 'components/blocks/program.html.twig' %}
 
