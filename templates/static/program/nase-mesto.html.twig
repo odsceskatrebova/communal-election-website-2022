@@ -5,7 +5,7 @@
     <div class="content">
         <div class="container">
 
-            <h1>NAŠE MĚSTO - MŮJ DOMOV</h1>
+            <h1>NAŠE MĚSTO <br> MŮJ DOMOV</h1>
             <p class="pb2 bb mb3 left">Podpoříme smysluplné developerské projekty <span class="text-highlight">výstavby bytů a&nbsp;domů ve městě</span> (areál Primony, ul. Husova, lokalita
                 Orlík a Rudoltičky…)</p>
             <p class="pb2 bb mb3 right">Budeme partnery <span class="text-highlight">individuální výstavbě rodinných domů</span> (areál Letního kina, bývalého zahradnictví, lokality Pod
@@ -25,21 +25,21 @@
             <p>Česká Třebová stále stoupá v žebříčku Index kvality života, které poměřuje města, ve kterých je sídlo ORP III. (celkem 206 měst). V roce 2018 bylo naše město 145., v roce 2019 si polepšilo na místo 130, v roce 2020 získalo 121. pozici, v roce 2021 se dostalo do první stovky a umístilo se 99. V pandemickém roce 2021 jsme byli v rámci Pardubického kraje jediným městem, které v žebříčku stoupalo.</p>
             <div class="gallery">
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8164.jpg') }}" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Fond rozvoje bydlení</div> <br>
                     </div>
                     <p class="text-left mb3">Díky privatizaci městských bytů jsme vytvořili Fond rozvoje bydlení, ve kterém je v roce 2022 deponováno 25 mil. Kč.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8054.jpg') }}" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Sociální služby a bydlení</div> <br>
                     </div>
                     <p class="text-left mb3">Do sociálních služeb byla v uplynulých letech investována částka 8,2 mil. Kč, z čehož do domu s pečovatelskou službou bylo investováno z prostředků města 3,1 mil. Kč (plošina pro imobilní obyvatele, středisko osobní hygieny, rekonstrukce sklepních prostor), na stacionáři na Lhotce jsme provedli rekonstrukci koupelny a sociálního zařízení za 1,5 mil. Kč. Další peníze směřovaly do domova důchodců.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8194.jpg') }}" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Městské byty</div> <br>
                     </div>
@@ -53,16 +53,16 @@
             <h2>Prosadíme pro bydlení</h2>
             <div class="gallery">
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/indivindi-2.jpg') }}" alt="">
                     <div class="move-top">
-                        <div class="btn secondary large">Výstavba bytů</div> <br>
+                        <div class="btn secondary large">Podpoříme</div> <br>
                     </div>
                     <p class="text-left mb3">Podpoříme smysluplné developerské projekty výstavby bytů a domů ve městě (areál Primony, ul. Husova, lokalita Orlík a Rudoltičky…).</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/indivindi-1.jpg') }}" alt="">
                     <div class="move-top">
-                        <div class="btn secondary large">Výstavba domů</div> <br>
+                        <div class="btn secondary large">Budeme partnery</div> <br>
                     </div>
                     <p class="text-left mb3">Budeme partnery individuální výstavbě rodinných domů (areál Letního kina, bývalého zahradnictví, lokality Pod Březinou…)</p>
                 </div>
@@ -75,6 +75,6 @@
 
         {% include 'components/blocks/calendar.html.twig' %}
 
-        {% include 'components/blocks/article-list.html.twig' %}
+        <hr>
     </div>
 {% endblock %}

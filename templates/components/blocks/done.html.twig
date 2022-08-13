@@ -11,8 +11,9 @@
             <img src="{{ asset(element.photo) }}" alt="">
             <div class="move-top">
                 <div class="btn secondary">{{ element.text[0]|raw }}</div> <br>
-                <div class="btn primary large">{{ element.text[1]|raw }}</div>
             </div>
+            <div class="bottom-text">{{ element.text[1]|raw }}</div>
         </a>
     {% endfor %}
 </div>
+<br><br>

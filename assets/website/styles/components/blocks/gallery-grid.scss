@@ -15,7 +15,16 @@
       text-align: center;
       .move-top {
         position: relative;
-        top: -3rem;
+        top: -1.3rem;
+      }
+      .bottom-text {
+        padding: 0 1rem 0;
+        font-weight: 100;
+        span {
+          display: inline-block;
+          font-size: 1.6rem;
+          font-weight: 700;
+        }
       }
     }
     a.block {
@@ -24,7 +33,9 @@
       z-index: 50;
       &:hover {
         background: $textLightBlue;
+        color: $textDarkBlue;
         outline: 20px $textLightBlue solid;
+        text-decoration: none;
       }
     }
     @media (min-width: 45rem) {
@@ -42,7 +53,6 @@
         &:hover {
           z-index: 100;
           text-decoration: none;
-          color: $textDarkBlue;
           transform: scale(1.1);
         }
       }

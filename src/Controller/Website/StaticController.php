@@ -11,19 +11,21 @@ class StaticController extends AbstractController
 {
     public $done = [
         [
-            'text' => [ 'MŠ U Stadionu','Rekonstrukce za&nbsp;27.4m&nbsp;Kč' ],
+            'text' => [ 'MŠ U Stadionu','Investovali jsme <span>27,4&nbsp;mil.&nbsp;Kč</span><br>do zateplení budov, vybudování nové třídy, osazení vzduchotechniky s rekuperací a úprav interiérů i exteriérů.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8187.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'MŠ Habrmanova','Rekonstrukce za&nbsp;26.5m&nbsp;Kč' ],
+            'text' => [ 'MŠ Habrmanova','Investovali jsme <span>26,5 mil. Kč</span><br>
+do zateplení budov, osazení vzduchotechniky, rekonstrukcí podlah, úprav zahrady a dalších.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/IMG_0256.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'MŠ U Koupaliště','Dostavba za&nbsp;14.5m&nbsp;Kč' ],
+            'text' => [ 'MŠ U Koupaliště','Investovali jsme <span>14,5 mil. Kč</span><br>
+do kontejnerové dostavby a rekonstrukce sociálních zařízení, vzduchotechniky, zahrad, dětského hřiště a dalších.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8069.jpg',
             'weight' => 100,
@@ -41,25 +43,25 @@ class StaticController extends AbstractController
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'ZŠ Habrmanova','Rekonstrukce za&nbsp;45.6.4m&nbsp;Kč' ],
+            'text' => [ 'ZŠ Habrmanova','Investovali jsme <span>45,6 mil. Kč</span><br>do zateplení budov, rekonstrukce soc. zařízení, vytápění tělocvičny, vzduchotechniky jídelny a dalších.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8169.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'ZŠ Nádražní','Rekonstrukce za&nbsp;11.1m&nbsp;Kč' ],
+            'text' => [ 'ZŠ Nádražní','Investovali jsme <span>11,1 mil. Kč</span><br>do rekonstrukce střechy, učeben, soc. zařízení, kotelny, knihovny a dalších, osazení klimatizace a úprav školní tělocvičny.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8147.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'ZUŠ Česká Třebová a DDM Kamarád','Investice za&nbsp;13.7m&nbsp;Kč' ],
+            'text' => [ 'ZUŠ Česká Třebová a DDM Kamarád','Investovali jsme <span>13,7 mil. Kč</span><br>do stavebních úprav.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8239.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Památky','Rekonstrukce za&nbsp;6.8m&nbsp;Kč' ],
+            'text' => [ 'Památky','Investovali jsme <span>6,8 mil. Kč</span><br>do rekonstrukce chaloupky Maxe Švabinského, kostela sv. Jakuba, kaple na Horách, hrobů, hrobek, soch, pomníků a křížů.' ],
             'path' => 'kulturniASportovniMesto',
 //            'photo' => 'build/website/img/photos_done/DSC_7960.jpg',
             'photo' => 'build/website/img/photos_done/DSC_8268.jpg',
@@ -78,19 +80,19 @@ class StaticController extends AbstractController
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Kulturní centrum','Investice za&nbsp;13.9m&nbsp;Kč' ],
+            'text' => [ 'Kulturní centrum','Investovali jsme <span>4 mil. Kč</span><br>do modernizace kina, a stavebních úprav objektů.' ],
             'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_done/DSC_8143.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Areál Peklák a minikemp','Investice za&nbsp;22.7m&nbsp;Kč' ],
+            'text' => [ 'Areál Peklák','Investovali jsme <span>22,7 mil. Kč</span><br>do vybudování tras Single track Glacensis a Bike resortu. ' ],
             'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_done/DSC_7864.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Atletický stadion','Investice 33.3m&nbsp;Kč' ],
+            'text' => [ 'Atletický stadion','Investovali jsme <span>20,1 mil. Kč</span><br>do vybudování atletického stadionu na Skalce a jeho okolí.' ],
             'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_done/DSC_7879.JPG',
             'weight' => 100,
@@ -102,79 +104,96 @@ class StaticController extends AbstractController
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Hokejbalový areál','Investice .4m&nbsp;Kč' ],
+            'text' => [ 'Hokejbalový areál','Investovali jsme <span>400 tis. Kč</span><br> do oplocení areálu.' ],
             'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_done/DSC_7895.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Fond rozvoje byldlení','Navýšen o&nbsp;25m&nbsp;Kč' ],
+            'text' => [ 'Fond rozvoje byldlení','Vytvořili jsme fond s počátečním vkladem <span>25 mil. Kč</span>. ' ],
             'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_done/DSC_8164.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Sociální služby a bydlení','Investováno 8.2m&nbsp;Kč' ],
+            'text' => [ 'Sociální služby a bydlení','Investovaji jsme přes <span>8,2 mil. Kč</span><br>do domu s pečovatelskou službou, stacionáře na Lhotce a domova důchodců.' ],
             'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_done/DSC_8054.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Městské byty','Rekonstrukce za&nbsp;8.2m&nbsp;Kč' ],
+            'text' => [ 'Městské byty','Investovaji jsme přes <span>4,7 mil. Kč</span><br> do opravy tzv. Domu služeb na Parníku.' ],
             'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_done/DSC_8194.jpg',
             'weight' => 100,
         ],
 //        [
-//            'text' => [ 'Chodníky, komunikace a parkoviště','Rekonstrukce za&nbsp;81.8m&nbsp;Kč' ],
+//            'text' => [ 'Chodníky, komunikace a parkoviště','Do plánovaných oprav chodníků a komunikací, ale i vynucených investic spojených s akcemi ŘSD a ČEZu, jsme investovaji přes <span>81,8 mil. Kč.</span>' ],
 //            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/test.jpeg',
 //            'weight' => 100,
 //        ],
 //        [
-//            'text' => [ 'Veřejné osvětlení', 'Rekonstrukce za&nbsp;37.2m&nbsp;Kč' ],
+//            'text' => [ 'Veřejné osvětlení', 'Investovaji jsme přes <span>37,2 mil. Kč</span><br> do osvětlení ulic Kozlovská, Husova, Podbranská, Lhotka a mnoha dalších.' ],
 //            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/test.jpeg',
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Dopravní terminál', 'Investice za&nbsp;1.7m&nbsp;Kč' ],
+            'text' => [ 'Dopravní terminál', 'Investovaji jsme přes <span>1,7 mil. Kč</span> do osvětlení, opravy kiosku a modernizce parkování.' ],
             'path' => 'mestoChodcu',
             'photo' => 'build/website/img/photos_done/DSC_8155.jpg',
             'weight' => 100,
         ],
+
         [
-            'text' => [ 'Park Javorka', 'Investice za&nbsp;3.5m&nbsp;Kč' ],
+            'text' => [ 'Parky a veřejná prostranství', 'Investovaji jsme přes <span>12,2 mil. Kč</span><br> do údržby a výměn mobiliáře.' ],
+            'path' => 'zeleneMesto',
+            'photo' => 'build/website/img/photos_done/DSC_8682.jpg',
+            'weight' => 100,
+        ],
+        [
+            'text' => [ 'Park u krematoria', 'Prosadili jsme úpravy parku, <span>jak jsme slíbili</span> v našem programu 2018.' ],
+            'path' => 'zeleneMesto',
+            'photo' => 'build/website/img/photos_done/DSC_8669.jpg',
+            'weight' => 100,
+        ],
+        [
+            'text' => [ 'Park Javorka', 'Investovali jsme <span>3,5 mil. Kč</span><br> do zpevnění cest, veřejných grilovišť a veřejného WC.' ],
             'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8257.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Tyršovo náměstí', 'Sadové úpravy 37.2m&nbsp;Kč' ],
+            'text' => [ 'Tyršovo náměstí', 'Investovali jsme <span>1,1 mil. Kč</span> <br>do sadových úprav.' ],
             'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8086.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'park za&nbsp;DPS', 'Sadové úpravy za&nbsp;.5m&nbsp;Kč' ],
+            'text' => [ 'Park za&nbsp;DPS', 'Investovali jsme <span>500 tis. Kč</span><br> do sadových úprav.' ],
             'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8064.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'dětské a sportovní hřiště Trávník', 'Vybudováno za&nbsp;5.4m&nbsp;Kč' ],
+            'text' => [ 'Dětské a sportovní hřiště Trávník', 'Investovali jsme <span>5,4 mil. Kč</span><br> do vybudování nového hřiště.' ],
             'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8252.jpg',
             'weight' => 100,
         ],
+
+
+
+        // CISTE MESTO
         [
-            'text' => [ 'Kompostárny', 'Zřízení za&nbsp;50m&nbsp;Kč' ],
+            'text' => [ 'Kompostárna', 'Vybudovali jsme kompostárnu za bezmála <span>50 mil. Kč</span><br> a zavedli sběr tříděného odpadu z domácností.' ],
             'path' => 'cisteMesto',
             'photo' => 'build/website/img/photos_done/DSC02018.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Více kontejnerů', 'za 2m&nbsp;Kč' ],
+            'text' => [ 'Více kontejnerů', 'V roce 2022 se ve městě realizovaly úpravy a rozšíření kontejnerových stání za <span>2 mil. Kč.</span>' ],
             'path' => 'cisteMesto',
             'photo' => 'build/website/img/photos_done/DSC_7910.jpg',
             'weight' => 100,
@@ -192,10 +211,10 @@ class StaticController extends AbstractController
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Městské krematorium', 'patří městu' ],
+            'text' => [ 'Městské krematorium', 'Po letech soukromého provozu krematorium převzala společnost EkoBi. Upravili jsme jeho provoz. Do objektu jsme investovali <span>18,7 mil. Kč</span>' ],
             'path' => 'cisteMesto',
             'photo' => 'build/website/img/photos_done/DSC_7922.jpg',
-            'weight' => 100000000,
+            'weight' => 100,
         ],
 //        [
 //            'text' => [ 'Vodovody a kanalizace', 'patří městu' ],
@@ -203,20 +222,25 @@ class StaticController extends AbstractController
 //            'photo' => 'build/website/img/test.jpeg',
 //            'weight' => 100,
 //        ],
+
+
+
+
+        // TRANSPARENTNI MESTO
         [
-            'text' => [ 'Participační rozpočet - Skuhrov', 'Investice 1.1m&nbsp;Kč' ],
+            'text' => [ 'Participativní rozpočet - Skuhrov', 'Investice <span>1,2 mil. Kč</span> <br>do zázemí sportovního areálu.' ],
             'path' => 'transpMesto',
             'photo' => 'build/website/img/photos_done/DSC_8514.jpg',
-            'weight' => 10000000000,
+            'weight' => 100,
         ],
         [
-            'text' => [ 'Participační rozpočet - Kozlov', 'Investice 2.1m&nbsp;Kč' ],
+            'text' => [ 'Participační rozpočet - Kozlov', 'Investice <span>2,1 mil. Kč</span> do sálu hospody a opravy komunikace.' ],
             'path' => 'transpMesto',
             'photo' => 'build/website/img/photos_done/DSC_8217.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Participační rozpočet - Svinná a Lhotka', 'Investice 3.6m&nbsp;Kč' ],
+            'text' => [ 'Participační rozpočet - Svinná a Lhotka', 'Investice <span>3,6 mil. Kč</span><br> do oprav hřbitovních zdí, vybudování přístřešku s kioskem a do opravy komunikace.' ],
             'path' => 'transpMesto',
             'photo' => 'build/website/img/photos_done/DSC_8199.jpg',
             'weight' => 100,
@@ -232,21 +256,21 @@ class StaticController extends AbstractController
 
     public $willBeDone = [
         [
-            'text' => [ 'ZŠ ÚSTECKÁ', 'Rekonstrukci budovy a sportovního areálu' ],
-            'path' => 'transpMesto',
+            'text' => [ 'ZŠ ÚSTECKÁ', 'Připravena je dokumentace k rekonstrukci sportovního areálu školy, ale i interiérů budov ve výši <span>35,2 mil. Kč</span>.' ],
+            'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_plans/dsc-8006.jpg',
             // DSC_8006.jpg
             'weight' => 100,
         ],
 //        [
 //            'text' => [ 'ZŠ HABRMANOVA', 'Rekonstrukci vstupního prostoru' ],
-//            'path' => 'transpMesto',
+//            'path' => 'vzdelaneMesto',
 //            'photo' => 'build/website/img/photos_plans/.jpg',
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Venkovní učebny', 'Prosadíme zřízení' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Venkovní učebny', 'Zasadíme se o zřízení <span>venkovních učeben</span>.' ],
+            'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_plans/venkovni-ucebna.jpg',
             // venkovni ucebna
             'weight' => 100,
@@ -258,105 +282,105 @@ class StaticController extends AbstractController
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Rozšíříme', 'Muzeum VELOREXu' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Muzeum VELOREXu', 'Chceme investovat <span>19,9 mil. Kč</span><br> do rozšíření expozice Velorex. Navrhujeme přemístit depozitář do krytu CO Javorka.' ],
+            'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_plans/velorex.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Opravíme', 'Malou scénu' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Malá scéna', 'Budeme investovat do stavebních úprav Malé scény. Připraven je projekt ve výši <span>12 mil. Kč</span>.' ],
+            'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_plans/mala-scena.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Kulturní centrum', 's klimatizací' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Kulturní centrum', 'Budeme investovat do klimatizace Kulturního centra za <span>10 mil. Kč</span>. ' ],
+            'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_plans/kc-klimatizace.jpg',
             'weight' => 100,
         ],
 //        [
 //            'text' => [ 'Rekonstrukci', 'plaveckého bazénu' ],
-//            'path' => 'transpMesto',
+//            'path' => 'kulturniASportovniMesto',
 //            'photo' => 'build/website/img/photos_plans/.jpg',
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Zázemí', 'hokejbalového stadionu' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Hokejbalový stadion', 'Postavíme zázemí za <span>24,3 mil. Kč.</span> ' ],
+            'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_plans/dsc-7903.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Zázemí', 'atletického stadionu' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Atletický stadion', 'Podpoříme výstavbu zázemí a tribun za <span>15 mil. Kč.</span> ' ],
+            'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_plans/dsc-7878.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'modernizaci zázemí', 'areálu peklák' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Areál Peklák', 'Zmodernizujeme zázemí. Studie počítá s&nbsp;náklady ve výši <span>22,8 mil. Kč.</span>' ],
+            'path' => 'kulturniASportovniMesto',
             'photo' => 'build/website/img/photos_plans/zazemi-peklak.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'podporu', 'smysluplných developerských projektů' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Podpoříme', '<span>smysluplné developerské projekty</span> <br>(areál Primony, ul. Husova, lokalita Orlík a Rudoltičky…)' ],
+            'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_plans/indivindi-2.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'podporu', 'Individuální výstavby' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Budeme partnery ', '<span>Individuální výstavbě rodinných domů</span> <br> (areál Letního kina, bývalého zahradnictví, lokality Pod Březinou…)' ],
+            'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_plans/indivindi-1.jpg',
             'weight' => 100,
         ],
 //        [
 //            'text' => [ 'rekonstrukci', 'ulice Semanínské' ],
-//            'path' => 'transpMesto',
+//            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/photos_plans/.jpg',
 //            'weight' => 100,
 //        ],
 //        [
 //            'text' => [ 'rekonstukci', 'Kubelkovy ulice' ],
-//            'path' => 'transpMesto',
+//            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/photos_plans/.jpg',
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'rozšíření', 'parkování na trávniku' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Sídliště Trávník', 'Rozšíříme počty <span>parkovacích míst</span> <br>na sídlišti Trávník.' ],
+            'path' => 'mestoChodcu',
             'photo' => 'build/website/img/photos_plans/dsc-8158.jpg',
             // DSC_8158.jpg
             'weight' => 100,
         ],
 //        [
 //            'text' => [ 'rozšíření', 'parkování na novém náměstí' ],
-//            'path' => 'transpMesto',
+//            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/photos_plans/.jpg',
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ '', 'Obchvat města' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Obchvat města', 'Trváme na stavbě <span>obchvatu města</span> ve spojení s přivaděčem R35.' ],
+            'path' => 'mestoChodcu',
             'photo' => 'build/website/img/photos_plans/obchvat.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'úpravu', 'parku u krematoria' ],
-            'path' => 'transpMesto',
-            'photo' => 'build/website/img/photos_plans/dsc-8669.jpg',
+            'text' => [ 'Park u krematoria', '<span>Dokončíme úpravy</span> parku u krematoria.' ],
+            'path' => 'zeleneMesto',
+            'photo' => 'build/website/img/photos_done/DSC_8682.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'revitalizaci', 'parků' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Revitalizujeme parky', 'Na Zámostí, Kobylí důl, Bezděkov i oblast Hlubočku.' ],
+            'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_plans/altan-zamosti-2.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'výstavbu', 'pavilonu v javorce' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Park Javorka', 'V Javorce vybudujeme nový veřejně přístupný <span>pavilon</span>. <br>Na louce v Javorce pod horním vodárenským objektem vytvoříme dle zájmu rodičů <span>Sad novorozeňat</span> z okrasných ovocných stromů.' ],
+            'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_plans/javorka-altan-svetla.jpg',
             'weight' => 100,
         ],
@@ -366,18 +390,22 @@ class StaticController extends AbstractController
 //            'photo' => 'build/website/img/photos_plans/.jpg',
 //            'weight' => 100,
 //        ],
+
+
+
+        // CISTE MESTO
         [
-            'text' => [ 'výstavbu', 'dotřiďovací linky Třebovice' ],
-            'path' => 'transpMesto',
+            'text' => [ 'Tříděný odpad', 'Podporujeme výstavbu dotřiďovací linky za <span>92,9 mil. Kč.</span>' ],
+            'path' => 'cisteMesto',
             'photo' => 'build/website/img/photos_plans/tridic.jpg',
             'weight' => 100,
         ],
-//        [
-//            'text' => [ 'výstavbu', 'ZEVO' ],
-//            'path' => 'transpMesto',
-//            'photo' => 'build/website/img/photos_plans/.jpg',
-//            'weight' => 100,
-//        ],
+        [
+            'text' => [ 'ZEVO', 'Ve výstavbě zařízení chceme i nadále pokračovat, abychom směsný komunální odpad energeticky využili.' ],
+            'path' => 'cisteMesto',
+            'photo' => 'build/website/img/photos_plans/zevo.jpg',
+            'weight' => 100,
+        ],
     ];
 
     public function getRandomElementKey($array) {
@@ -425,12 +453,12 @@ class StaticController extends AbstractController
         ]);
     }
 
-    #[Route('/mesto-s-vizi', name: 'mestoSVizi')]
-    public function mestoSVizi(): Response
-    {
-        return $this->render('static/program/mesto-s-vizi.html.twig', [
-        ]);
-    }
+//    #[Route('/mesto-s-vizi', name: 'mestoSVizi')]
+//    public function mestoSVizi(): Response
+//    {
+//        return $this->render('static/program/mesto-s-vizi.html.twig', [
+//        ]);
+//    }
 
     #[Route('/vzdelane-mesto', name: 'vzdelaneMesto')]
     public function vzdelaneMesto(): Response

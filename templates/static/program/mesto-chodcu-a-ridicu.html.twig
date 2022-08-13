@@ -26,25 +26,25 @@
             <p>Obdobně je tomu při pracích ČEZu. Tam kde ČEZ snáší vysoké napětí a ukládá ho do země, my v návaznosti na jeho práce opravujeme komunikace a chodníky, aby se celá ulice vždy rekonstruovala jako celek během jedné akce.</p>
             <div class="gallery">
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8155.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">dopravní terminál</div> <br>
+                    </div>
+                    <p class="text-left mb3">Investovalo se také do dopravního terminálu, zde celkové náklady dosáhly částky 1,7 mil. Kč. Šlo o výměnu a doplnění osvětlení, opravu infokiosku a modernizaci parkovacího systému.</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="block">
                     <div class="move-top">
                         <div class="btn secondary large">chodníky, komunikace a parkoviště</div> <br>
                     </div>
                     <p class="text-left mb3">V uplynulých 4 letech město investovalo do oprav chodníků, silnic a parkovišť 81,8 mil. Kč. Jednalo se např. o rekonstrukce ulic Na Skalce, Křib, Felixova, Dukelská, Litomyšlská (chodník a VO), Tyršovo náměstí, Semanínská, I/14 (chodníky), Podbranská, Smetanova, Podbranská – Lidická, nábřeží Míru – U Podhorky, Smetanova – Riegrova (chodník), Brožíkova, Grégrova, Tykačova; cyklostezka ČT – Rybník; parkoviště Stacionář Lhotka, ZUŠ Kozlovská, Felixova, Borek.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">veřejné osvětlení</div> <br>
                     </div>
                     <p class="text-left mb3">Ruku v ruce s investicemi do komunikací je také rekonstrukce či výměna veřejného osvětlení. Celkové investiční náklady dosáhly v této kapitole 37,2 mil. Kč. Jednalo se např. o ulice I/14, Kozlovská, Husova, Podbranská, Lhotka, Javorka, Parník, Komenského, Na Chmelnici – Školní, Na Milíři, Vinohrady, Litomyšlská, Luční – Jiráskova, Grégrova.</p>
-                </div>
-                <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
-                    <div class="move-top">
-                        <div class="btn secondary large">dopravní terminál</div> <br>
-                    </div>
-                    <p class="text-left mb3">Investovalo se také do dopravního terminálu, zde celkové náklady dosáhly částky 1,7 mil. Kč. Šlo o výměnu a doplnění osvětlení, opravu infokiosku a modernizaci parkovacího systému.</p>
                 </div>
             </div>
 
@@ -54,14 +54,14 @@
             <p>Do fáze dokumentace pro územní řízení je připravena rekonstrukce ulice Semanínská, která by měla stát 19,6 mil. Kč. Do fáze dokumentace pro stavební povolení jsou dovedeny rekonstrukce chodníků a VO na ulici Kubelkova za 12 mil. Kč.</p>
             <div class="gallery">
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/dsc-8158.jpg') }}" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Parkování Trávník</div> <br>
                     </div>
                     <p class="text-left mb3">Dokumentaci pro provedení stavby má rozšíření parkovacích míst a zřízení nových míst na sídlišti Trávník a na Novém náměstí. Investice je spočítána na 14,7 mil. Kč.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/obchvat.jpg') }}" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Obchvat města</div> <br>
                     </div>
@@ -77,6 +77,6 @@
 
         {% include 'components/blocks/calendar.html.twig' %}
 
-        {% include 'components/blocks/article-list.html.twig' %}
+        <hr>
     </div>
 {% endblock %}

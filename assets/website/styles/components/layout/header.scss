@@ -37,14 +37,14 @@
         .claim {
           text-transform: uppercase;
           text-align: center;
-          font-weight: 900;
+          font-weight: 700;
           padding-bottom: 2rem;
           transform: skewY(-6deg);
           .light {
             margin-bottom: .2rem;
             display: inline-block;
-            padding: .5rem;
-            font-size: 2.2rem;
+            padding: .7rem .5rem .3rem;
+            font-size: 2.6rem;
             background: #ffffff;
             line-height: 90%;
             color: $textDarkBlue;
@@ -53,8 +53,8 @@
           .dark {
             display: inline-block;
             margin: auto;
-            padding: .7rem;
-            font-size: 4.2rem;
+            padding: .9rem .7rem .5rem;
+            font-size: 5rem;
             line-height: 90%;
             background: $textLightBlue;
             color: $textDarkBlue;
@@ -72,7 +72,7 @@
             font-weight: 100;
 
             &.bold {
-              font-weight: 900;
+              font-weight: 700;
             }
           }
           &.show {

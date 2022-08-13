@@ -27,14 +27,22 @@
             <h2>Dokázali jsme pro ekologii</h2>
             <div class="gallery">
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/tridic.jpg') }}" alt="">
                     <div class="move-top">
-                        <div class="btn secondary large">Recyklace</div> <br>
+                        <div class="btn secondary large">Kompostárna</div> <br>
                     </div>
                     <p class="text-left mb3">Zajistili jsme výstavbu kompostárny v areálu skládky Třebovice za bezmála 50 mil. Kč.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_7922.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">Krematorium</div> <br>
+                    </div>
+                    <p class="text-left mb3">Po více než 10 letech jsme prosadili převzetí městského krematoria městskou společností EkoBi. Upravili jsme jeho provoz. Do objektu bylo investováno 18,7 mil. Kč (včetně nové kremační linky schválené v rozpočtu města na letošní rok).</p>
+                </div>
+            </div>
+            <div class="gallery">
+                <div class="block">
                     <div class="move-top">
                         <div class="btn secondary large">Recyklace</div> <br>
                     </div>
@@ -42,7 +50,6 @@
                     <p class="text-left mb3">Jenom v roce 2022 se ve městě realizují zřízení, úpravy a rozšíření kontejnerových stání za 2 mil. Kč.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Protipovodňová opatření</div> <br>
                     </div>
@@ -50,14 +57,6 @@
                     <p class="text-left mb3">Vznikla retenční nádrž Benátky za 2,7 mil. Kč, k výstavbě je nachystána retenční nádrž Borek (schváleno v rozpočtu města na rok 2022 – 5,8 mil. Kč).</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
-                    <div class="move-top">
-                        <div class="btn secondary large">Krematorium</div> <br>
-                    </div>
-                    <p class="text-left mb3">Po více než 10 letech jsme prosadili převzetí městského krematoria městskou společností EkoBi. Upravili jsme jeho provoz. Do objektu bylo investováno 18,7 mil. Kč (včetně nové kremační linky schválené v rozpočtu města na letošní rok).</p>
-                </div>
-                <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Vodovody a kanalizace</div> <br>
                     </div>
@@ -72,14 +71,14 @@
 
             <div class="gallery">
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/tridic.jpg') }}" alt="">
                     <div class="move-top">
-                        <div class="btn secondary large">Recyklace</div> <br>
+                        <div class="btn secondary large">Tříděný odpad</div> <br>
                     </div>
                     <p class="text-left mb3">Podporujeme výstavbu haly pro dotřiďovací linku v areálu skládky Třebovice. Na její technologii jsme získali dotaci. Celkové náklady na její stavbu podle již vypracované dokumentace ke stavebnímu povolení jsou vyčísleny na 69,4 mil. Kč, technologie by měla být pořízena za 23,5 mil. Kč.</p>
                 </div>
                 <div class="block">
-                    <img src="/build/website/img/test.b19db03c.jpeg" alt="">
+                    <img src="{{ asset('build/website/img/photos_plans/zevo.jpg') }}" alt="">
                     <div class="move-top">
                         <div class="btn secondary large">Zevo</div> <br>
                     </div>
@@ -94,6 +93,6 @@
 
         {% include 'components/blocks/calendar.html.twig' %}
 
-        {% include 'components/blocks/article-list.html.twig' %}
+        <hr>
     </div>
 {% endblock %}

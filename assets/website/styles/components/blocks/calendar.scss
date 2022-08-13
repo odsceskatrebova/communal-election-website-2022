@@ -3,7 +3,7 @@
     padding: 10rem $pagePaddingDesktop;
     text-align: center;
     .date {
-      padding: $pagePaddingDesktop $pagePaddingMobile $pagePaddingMobile;
+      padding: .5rem $pagePaddingMobile 1rem;
       display: inline-block;
       text-align: center;
       transform: skewY(-6deg);
@@ -20,7 +20,7 @@
       .month {
         font-size: 3rem;
         line-height: 100%;
-        padding-top: .5rem;
+        padding-top: 1rem;
         text-transform: uppercase;
         font-weight: 900;
       }
@@ -36,6 +36,14 @@
       font-weight: 900;
       h3 {
         color: $textLightBlue;
+      }
+      table {
+        margin: 1rem auto;
+        text-align: left;
+        font-weight: 100;
+        font-size: 1.5rem;
+        line-height: 120%;
+        border-spacing: 1rem;
       }
     }
   }
