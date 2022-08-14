@@ -1,0 +1,34 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <div class="container">
+            <h1>Prosadíme</h1>
+            <p>Toto jsou konkrétní projekty, které budeme chtít prosadit v dalších obdobích, aby Česká Třebová byla ještě lepším městem pro život</p>
+        </div>
+        <div class="gallery">
+            {% for element in willBeDone  %}
+                <a href="{{ path(element.path) }}" class="block link">
+                    <img src="{{ asset(element.photo) }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary">{{ element.text[0]|raw }}</div> <br>
+                    </div>
+                    <div class="bottom-text">{{ element.text[1]|raw }}</div>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div style="height: 3rem"></div>
+        <div class="container">
+            <h2>a mnohé další... </h2>
+            <p>Více z toho co chceme pro naše město udělat najdete<br>v našich 9. programových tématech níže.</p>
+        </div>
+        <div style="height: 3rem"></div>
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        <hr>
+    </div>
+{% endblock %}

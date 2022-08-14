@@ -523,4 +523,20 @@ do kontejnerové dostavby a rekonstrukce sociálních zařízení, vzduchotechni
         ]);
     }
 
+    #[Route('/dokazali-jsme', name: 'done')]
+    public function done(): Response
+    {
+        return $this->render('static/program/done.html.twig', [
+            'done' => $this->done,
+        ]);
+    }
+
+    #[Route('/prosadime', name: 'willBeDone')]
+    public function willBeDone(): Response
+    {
+        return $this->render('static/program/willBeDone.html.twig', [
+            'willBeDone' => $this->willBeDone,
+        ]);
+    }
+
 }
