@@ -36,7 +36,7 @@ footer {
    margin: auto;
    max-width: $containerMaxWidth;
    padding: 0 $pagePaddingDesktop ;
-   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
    .github {
      text-align: left;
      vertical-align: center;
@@ -59,4 +59,9 @@ footer {
      text-align: right;
    }
  }
+  @media (min-width: $mobileBreakpoint) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }
