@@ -65,7 +65,53 @@
           display: none;
         }
         .menu-toggl {
-          text-align: center;
+          height: 2rem;
+          width: 2rem;
+          margin: auto;
+          //background: red;
+          cursor: pointer;
+          position: relative;
+          .line {
+            height: 2px;
+            width: 2rem;
+            position: absolute;
+            border: 1px solid #ffffff;
+            background: #ffffff;
+            transition: all .3s;
+            border-radius: 3rem;
+            &.top {
+              top: 3px;
+              left: 0;
+            }
+            &.middle {
+              top: calc(1rem - 1px);
+              left: 0;
+            }
+            &.bottom {
+              top: calc(2rem - 5px);
+              left: 0;
+            }
+          }
+          &.show {
+            .line {
+              &.top {
+                transform: rotate(135deg);
+                top: calc(1rem - 1px);
+              }
+              &.middle {
+                top: -.4rem;
+                left: -.4rem;
+                width: 2.8rem;
+                height: 2.8rem;
+                background: transparent;
+                border-color: #ffffff33;
+              }
+              &.bottom {
+                transform: rotate(-135deg);
+                top: calc(1rem - 1px);
+              }
+            }
+          }
         }
         nav {
           display: none;
