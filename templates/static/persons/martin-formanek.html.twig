@@ -1,0 +1,27 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <img src="{{ asset('build/website/img/mini_people/person_17.jpg') }}" class="person" alt="">
+        <div class="section-header person">
+            <div class="container">
+                <div class="text-center">
+                    <div class="btn primary xxx-large">Marin Formánek</div><br>
+                </div>
+                <br><br><br>
+                <p>Jmenuji se Martin Formánek, bude mi 48 let. Celý život bydlím v České Třebové a&nbsp;posledních 22 let zde pracuji jako zubní lékař. Kromě práce se věnuji ultralehkému létání, leteckému modelářství a&nbsp;hobby cyklistice. Dovolenou trávím nejraději s&nbsp;rodinou v&nbsp;tuzemských horách pěší i&nbsp;cykloturistikou</p>
+                <p>Zajímám se i&nbsp;o&nbsp;komunální politiku. Zastupitelem města za&nbsp;ODS jsem od roku 2010. V&nbsp;posledním volebním období jsem&nbsp;vykonával funkci předsedy Finančního výboru.</p>
+                <p>Jako zastupitel bych rád přispěl k&nbsp;rozvoji našeho města. </p>
+            </div>
+        </div>
+
+
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}

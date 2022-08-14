@@ -17,4 +17,18 @@ class PersonController extends AbstractController
         ]);
     }
 
+    #[Route('/ladislav-vraspir', name: 'ladislavVraspir')]
+    public function ladislavVraspir(): Response
+    {
+        return $this->render('static/persons/ladislav-vraspir.html.twig', [
+        ]);
+    }
+
+    #[Route('/martin-formanek', name: 'martinFormanek')]
+    public function martinFormanek(): Response
+    {
+        return $this->render('static/persons/martin-formanek.html.twig', [
+        ]);
+    }
+
 }
