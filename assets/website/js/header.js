@@ -12,10 +12,8 @@ document.addEventListener('scroll', (e)=>{
     if(rect.bottom < 80 ) {
       if (!headerWrapper.classList.contains('fixed')) {
         const fixerHeight = headerFixer.clientHeight;
-        console.log(fixerHeight);
         headerWrapper.style.height = fixerHeight + 'px';
         headerWrapper.classList.add('fixed');
-        console.log(fixerHeight);
       }
     } else {
       headerWrapper.classList.remove('fixed');
