@@ -16,11 +16,11 @@
         grid-column: 1/2;
         grid-row: 1/3;
         display: inline-block;
-        line-height: 10rem ;
-        font-size: 8rem;
+        line-height: 6rem ;
+        font-size: 5rem;
         font-weight: 900;
-        width: 10rem;
-        padding-left: .9rem;
+        width: 6rem;
+        padding-left: .5rem;
         background: #ffffff;
         color: $textDarkBlue;
         box-shadow: $buttonShadow;
@@ -30,7 +30,7 @@
         padding-top: .5rem;
         grid-column: 2/3;
         grid-row: 1/2;
-        font-size: 5rem;
+        font-size: 3rem;
         line-height: 100%;
         text-transform: uppercase;
         font-weight: 900;
@@ -38,7 +38,7 @@
       .year {
         grid-column: 2/3;
         grid-row: 2/3;
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 100%;
         color: $textLightBlue;
         font-weight: 900;
@@ -74,6 +74,23 @@
       .baits {
         max-width: 23rem;
         text-align: left;
+      }
+    }
+    @media (min-width: 30rem) {
+      .date {
+        .day {
+          line-height: 10rem ;
+          font-size: 8rem;
+          width: 10rem;
+          padding-left: .9rem;
+        }
+        .month {
+          padding-top: .5rem;
+          font-size: 5rem;
+        }
+        .year {
+          font-size: 3rem;
+        }
       }
     }
   }
