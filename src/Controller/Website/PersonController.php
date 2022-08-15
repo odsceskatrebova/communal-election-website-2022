@@ -17,6 +17,13 @@ class PersonController extends AbstractController
         ]);
     }
 
+    #[Route('/martin-formanek', name: 'martinFormanek')]
+    public function martinFormanek(): Response
+    {
+        return $this->render('static/persons/martin-formanek.html.twig', [
+        ]);
+    }
+
     #[Route('/ladislav-vraspir', name: 'ladislavVraspir')]
     public function ladislavVraspir(): Response
     {
@@ -24,10 +31,10 @@ class PersonController extends AbstractController
         ]);
     }
 
-    #[Route('/martin-formanek', name: 'martinFormanek')]
-    public function martinFormanek(): Response
+    #[Route('/petr-havlena', name: 'petrHavlena')]
+    public function petrHavlena(): Response
     {
-        return $this->render('static/persons/martin-formanek.html.twig', [
+        return $this->render('static/persons/petr-havlena.html.twig', [
         ]);
     }
 

@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <img src="{{ asset('build/website/img/mini_people/person_25.jpg') }}" class="person" alt="">
+        <div class="section-header person">
+            <div class="container">
+                <div class="text-center">
+                    <div class="btn primary xxx-large">Petr Havlena</div><br>
+                </div>
+                <br><br><br>
+                <p>V České Třebové jsem se narodil a také zde žiji od svého útlého mládí. V období studií na místním gymnáziu mi přirostlo naše město k srdci. Již tenkrát jsem vnímal, že jsme město všech generací a skvělé startovací místo pro mladé. Máme zde pracovní i sportovní zázemí, krásné okolí pro místní i návštěvníky. Během dalších deseti let jsem působil v zahraničí, kde jsem nabyl zajímavých zkušeností a poznal, že naše město má velikou devizu, skvělou dopravní dostupnost zaručující více příležitostí a aktivní život. Budujme chytré město chytře.</p>
+
+                <p>Podnikám více než patnáct let v oblasti finančních a realitních služeb v novodobé komplexní podobě pod jednou střechou. Založil jsem První vzájemnou společnost pro podporu místní komunity a podnikatelů. Jsem místopředsedou dozorčí rady Krajské hospodářské komory oblasti Orlicko. Již čtyři volební období jsem členem a aktivním účastníkem komisí a výborů z mého oboru.</p>
+
+                <p>Pro klientský servis a individuální přístup je mou osobní filosofií i pro naše živé město a úřad. Právě to budu prosazovat příští volební období,  proto jsem se rozhodl požádat vás touto cestou o přízeň. Chci, aby to i nadále bylo Město pro život!</p>
+            </div>
+        </div>
+
+
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+    </div>
+{% endblock %}
