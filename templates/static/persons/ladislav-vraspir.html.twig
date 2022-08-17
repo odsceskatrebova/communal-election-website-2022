@@ -1,0 +1,26 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <img src="{{ asset('build/website/img/mini_people/person_1.jpg') }}" class="person" alt="">
+        <div class="section-header person">
+            <div class="container">
+                <div class="text-center">
+                    <div class="btn primary xxx-large">Ladislav Vraspír</div><br>
+                </div>
+                <br><br><br>
+                <p>Je mi 62 let a celý život žiji s rodinou v České Třebové. Od mládí se aktivně věnuji trampingu s osadou Poutníci a příští rok oslavíme 50 výročí, hraji i ve stejnojmenné kapele.</p>
+                <p>Od roku 1991 jsem členem ODS za kterou kandiduji do zastupitelstva, kterého jsem byl členem jako zastupitel i radní.</p>
+                <p>Děkuji Vám za důvěru.</p>
+            </div>
+        </div>
+
+
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+    </div>
+{% endblock %}

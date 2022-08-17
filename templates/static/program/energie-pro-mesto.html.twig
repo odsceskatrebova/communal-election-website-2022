@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <div class="container">
+
+            <h1>ENERGIE PRO MĚSTO</h1>
+            <p class="pb2 bb mb3 left">Na vybrané městské budovy (školská zařízení, sportoviště i kulturní zařízení) chceme v souladu s regulativy
+                města osadit <span class="text-highlight">fotovoltaické panely</span> se zásobníky, abychom snížili závislost na fosilních zdrojích.</p>
+            <p class="pb2 bb mb3 right">Chceme začít dlouhodobě pracovat na konceptech, které jsou často až <span class="text-highlight">stoprocentně podporované státem</span>.</p>
+            <p class="pb2 bb mb3 left">Prosazujeme kompletní výměnu pouličního osvětlení za <span class="text-highlight">úspornou LED</span> variantu s noční regulací pro snížení
+                energetické náročnosti.</p>
+            <p class="pb2  mb3 right">Navrhujeme pokračovat ve výměně vnitřního osvětlení městských budov a budov městských společností, včetně
+                škol. Analyzovali jsme možnost <span class="text-highlight">úspor až 40 % nákladů</span>.</p>
+
+
+
+            <div style="height: 20rem"></div>
+        </div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        <hr>
+    </div>
+{% endblock %}

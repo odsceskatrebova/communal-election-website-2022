@@ -1,0 +1,23 @@
+<div class="section-header first" >
+    <div class="background" id="dokazali-jsme"></div>
+    <div class="container text-center">
+        <h2>Dokázali jsme</h2>
+        <p>V minulých obdobích jsme zařídili</p>
+    </div>
+</div>
+<div class="gallery">
+    {% for element in randomDone  %}
+        <a href="{{ path(element.path) }}" class="block link">
+            <img src="{{ asset(element.photo) }}" alt="">
+            <div class="move-top">
+                <div class="btn secondary">{{ element.text[0]|raw }}</div> <br>
+            </div>
+            <div class="bottom-text">{{ element.text[1]|raw }}</div>
+        </a>
+    {% endfor %}
+</div>
+<br>
+<div class="text-center">
+    <a href="{{ path('done') }}" class="btn x-large secondary">Zobrazit více</a>
+</div>
+<br><br>

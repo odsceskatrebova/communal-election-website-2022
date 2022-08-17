@@ -1,0 +1,28 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/blocks/hero.html.twig' %}
+
+    {% include 'components/layouts/menu.html.twig' with { homepage: true } %}
+
+    <div class="content homepage">
+
+        {% include 'components/blocks/done.html.twig' %}
+
+        {% include 'components/blocks/willbedone.html.twig' %}
+
+        <br><br>
+        <hr id="nasi-lide">
+        <br><br>
+
+        {% include 'components/blocks/monsters.html.twig' %}
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+{#        {% include 'components/blocks/article-list.html.twig' %}#}
+        <hr>
+
+    </div>
+{% endblock %}

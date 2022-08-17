@@ -1,0 +1,80 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <div class="container">
+
+            <h1>NAŠE MĚSTO <br> MŮJ DOMOV</h1>
+            <p class="pb2 bb mb3 left">Podpoříme smysluplné developerské projekty <span class="text-highlight">výstavby bytů a&nbsp;domů ve městě</span> (areál Primony, ul. Husova, lokalita
+                Orlík a Rudoltičky…)</p>
+            <p class="pb2 bb mb3 right">Budeme partnery <span class="text-highlight">individuální výstavbě rodinných domů</span> (areál Letního kina, bývalého zahradnictví, lokality Pod
+                Březinou…)</p>
+            <p class="pb2 bb mb3 left">Navrhujeme <span class="text-highlight">zachovat administrativní budovu</span> v bývalém areálu firmy Böhm Plast technik v Bezděkově a adaptovat ji pro náš dlouhodobý plán Penzionu pro osamělé seniory, resp. Penzionu pro matky s dětmi.</p>
+            <p class="pb2 bb mb3 right">Objekt bývalé pošty v Klácelově ulici doporučujeme prodat a získané prostředky vložit do <span class="text-highlight">Fondu rozvoje bydlení</span>.</p>
+            <p class="pb2 bb mb3 left">Lokalitu bývalého <span class="text-highlight">koupaliště v Křivolíku</span> chceme zachovat jako zónu pro odpočinek a rekreaci. Vzniknout by zde
+                mohlo například knajpoviště, koupání pro otužilce, park Křivolík respektující lokalitu a vodní plochy
+                Pivovarského rybníka a Panamáku.</p>
+            <p class="pb2 bb mb3 right">V majetku města chceme udržet <span class="text-highlight">byty ve Čtverci a&nbsp;sociální byty</span>.</p>
+            <p class="pb2 bb mb3 left">I nadále budeme naplňovat náš dlouhodobý cíl rozvoje <span class="text-highlight">městských sídlišť</span> tak, aby splňovala současné požadavky
+                na bydlení, klidové zóny, hřiště, osvětlení, parkování apod.</p>
+
+
+            <div style="height: 10rem" id="dokazali-jsme"></div>
+            <h2 class="mb2">Dokázali jsme pro bydlení</h2>
+            <p>Česká Třebová stále stoupá v žebříčku Index kvality života, které poměřuje města, ve kterých je sídlo ORP III. (celkem 206 měst). V roce 2018 bylo naše město 145., v roce 2019 si polepšilo na místo 130, v roce 2020 získalo 121. pozici, v roce 2021 se dostalo do první stovky a umístilo se 99. V pandemickém roce 2021 jsme byli v rámci Pardubického kraje jediným městem, které v žebříčku stoupalo.</p>
+            <div class="gallery">
+                <div class="block">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8164.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">Fond rozvoje bydlení</div> <br>
+                    </div>
+                    <p class="text-left mb3">Díky privatizaci městských bytů jsme vytvořili Fond rozvoje bydlení, ve kterém je v roce 2022 deponováno 25 mil. Kč.</p>
+                </div>
+                <div class="block">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8054.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">Sociální služby a bydlení</div> <br>
+                    </div>
+                    <p class="text-left mb3">Do sociálních služeb byla v uplynulých letech investována částka 8,2 mil. Kč, z čehož do domu s pečovatelskou službou bylo investováno z prostředků města 3,1 mil. Kč (plošina pro imobilní obyvatele, středisko osobní hygieny, rekonstrukce sklepních prostor), na stacionáři na Lhotce jsme provedli rekonstrukci koupelny a sociálního zařízení za 1,5 mil. Kč. Další peníze směřovaly do domova důchodců.</p>
+                </div>
+                <div class="block">
+                    <img src="{{ asset('build/website/img/photos_done/DSC_8194.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">Městské byty</div> <br>
+                    </div>
+                    <p class="text-left mb3">Město přes městskou společnost TEZA realizuje průběžné rekonstrukce bytů ve Čtverci, z rozpočtu města investovalo částku 8,2 mil. Kč na opravy tzv. Domu služeb na Parníku.</p>
+                </div>
+            </div>
+
+
+
+            <div style="height: 10rem" id="prosadime"></div>
+            <h2>Prosadíme pro bydlení</h2>
+            <div class="gallery">
+                <div class="block">
+                    <img src="{{ asset('build/website/img/photos_plans/indivindi-2.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">Podpoříme</div> <br>
+                    </div>
+                    <p class="text-left mb3">Podpoříme smysluplné developerské projekty výstavby bytů a domů ve městě (areál Primony, ul. Husova, lokalita Orlík a Rudoltičky…).</p>
+                </div>
+                <div class="block">
+                    <img src="{{ asset('build/website/img/photos_plans/indivindi-1.jpg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn secondary large">Budeme partnery</div> <br>
+                    </div>
+                    <p class="text-left mb3">Budeme partnery individuální výstavbě rodinných domů (areál Letního kina, bývalého zahradnictví, lokality Pod Březinou…)</p>
+                </div>
+            </div>
+
+            <div style="height: 20rem"></div>
+        </div>
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        <hr>
+    </div>
+{% endblock %}

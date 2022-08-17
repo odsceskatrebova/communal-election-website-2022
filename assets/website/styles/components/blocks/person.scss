@@ -1,0 +1,22 @@
+
+img.person {
+  max-width: 30rem;
+  margin: auto;
+}
+
+.section-header.person {
+  margin-top: -5rem;
+  max-width: 70rem;
+  .background {
+    top: 3rem;
+  }
+  .container {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.person-text {
+  padding: $pagePaddingMobile;
+}

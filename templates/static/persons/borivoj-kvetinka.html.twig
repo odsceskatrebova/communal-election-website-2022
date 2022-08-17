@@ -1,0 +1,78 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <img src="{{ asset('build/website/img/test.jpeg') }}" class="person" alt="">
+        <div class="section-header person">
+            <div class="background" id="program"></div>
+            <div class="container">
+                <div class="text-center">
+                    <div class="btn primary xxx-large">personal goal</div><br>
+                    <div class="btn secondary xx-large">personal claim</div>
+                    <br><br><br>
+                    <h1>Borivoj Kvetinka</h1>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tincidunt dolor. Fusce luctus erat tortor, et malesuada ligula aliquet et. In pellentesque, elit id fermentum posuere, risus turpis commodo tortor, a egestas justo ligula eu velit. Curabitur molestie a mauris nec tincidunt. Donec mollis, tellus sit amet porttitor mollis, mauris felis lacinia velit, non maximus odio enim eget orci. Nunc posuere aliquam tempor. In sed urna facilisis, tempor metus nec, congue tellus.</p>
+            </div>
+        </div>
+        <div class="person-text">
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tincidunt dolor. Fusce luctus erat tortor, et malesuada ligula aliquet et. In pellentesque, elit id fermentum posuere, risus turpis commodo tortor, a egestas justo ligula eu velit. Curabitur molestie a mauris nec tincidunt. Donec mollis, tellus sit amet porttitor mollis, mauris felis lacinia velit, non maximus odio enim eget orci. Nunc posuere aliquam tempor. In sed urna facilisis, tempor metus nec, congue tellus.</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tincidunt dolor. Fusce luctus erat tortor, et malesuada ligula aliquet et. In pellentesque, elit id fermentum posuere, risus turpis commodo tortor, a egestas justo ligula eu velit. Curabitur molestie a mauris nec tincidunt. Donec mollis, tellus sit amet porttitor mollis, mauris felis lacinia velit, non maximus odio enim eget orci. Nunc posuere aliquam tempor. In sed urna facilisis, tempor metus nec, congue tellus.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut id tincidunt dolor. Fusce luctus erat tortor, et malesuada ligula aliquet et. In pellentesque, elit id fermentum posuere, risus turpis commodo tortor, a egestas justo ligula eu velit. Curabitur molestie a mauris nec tincidunt. Donec mollis, tellus sit amet porttitor mollis, mauris felis lacinia velit, non maximus odio enim eget orci. Nunc posuere aliquam tempor. In sed urna facilisis, tempor metus nec, congue tellus.</p>
+
+            <br><br>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                <li>Ut id tincidunt dolor.</li>
+                <li>Fusce luctus erat tortor, et malesuada ligula aliquet et.</li>
+                <li>In pellentesque, elit id fermentum posuere, risus turpis commodo tortor, a egestas justo ligula eu
+                    velit.
+                </li>
+                <li>Curabitur molestie a mauris nec tincidunt.</li>
+                <li>Donec mollis, tellus sit amet porttitor mollis.</li>
+                <li>Mauris felis lacinia velit, non maximus odio enim eget orci.</li>
+            </ul>
+
+            <br><br><br>
+            <hr>
+            <br><br><br>
+
+            <h2>Názory kandidáta</h2>
+            <div class="gallery">
+                <div class="block">
+                    <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn primary large">Kam ve volbach</div><br>
+                        <div class="btn secondary">Více</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn primary large">Do budoucnosti</div><br>
+                        <div class="btn secondary">Více</div>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="{{ asset('build/website/img/test.jpeg') }}" alt="">
+                    <div class="move-top">
+                        <div class="btn primary large">Bořek je borec</div> <br>
+                        <div class="btn secondary">Více</div>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+
+
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+        {% include 'components/blocks/article-list.html.twig' %}
+    </div>
+{% endblock %}
