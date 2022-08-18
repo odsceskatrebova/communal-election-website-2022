@@ -17,15 +17,13 @@ class StaticController extends AbstractController
             'weight' => 100,
         ],
         [
-            'text' => [ 'MŠ Habrmanova','Investovali jsme <span>26,5 mil. Kč</span><br>
-do zateplení budov, osazení vzduchotechniky, rekonstrukcí podlah, úprav zahrady a dalších.' ],
+            'text' => [ 'MŠ Habrmanova','Investovali jsme <span>26,5 mil. Kč</span><br>do zateplení budov, osazení vzduchotechniky, rekonstrukcí podlah, úprav zahrady a dalších.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/IMG_0256.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'MŠ U Koupaliště','Investovali jsme <span>14,5 mil. Kč</span><br>
-do kontejnerové dostavby a rekonstrukce sociálních zařízení, vzduchotechniky, zahrad, dětského hřiště a dalších.' ],
+            'text' => [ 'MŠ U Koupaliště','Investovali jsme <span>14,5 mil. Kč</span><br>do kontejnerové dostavby a rekonstrukce sociálních zařízení, vzduchotechniky, zahrad, dětského hřiště a dalších.' ],
             'path' => 'vzdelaneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8069.jpg',
             'weight' => 100,
@@ -116,38 +114,38 @@ do kontejnerové dostavby a rekonstrukce sociálních zařízení, vzduchotechni
             'weight' => 100,
         ],
         [
-            'text' => [ 'Sociální služby a bydlení','Investovaji jsme přes <span>8,2 mil. Kč</span><br>do domu s pečovatelskou službou, stacionáře na Lhotce a domova důchodců.' ],
+            'text' => [ 'Sociální služby a bydlení','Investovali jsme přes <span>8,2 mil. Kč</span><br>do domu s pečovatelskou službou, stacionáře na Lhotce a domova důchodců.' ],
             'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_done/DSC_8054.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Městské byty','Investovaji jsme přes <span>4,7 mil. Kč</span><br> do opravy tzv. Domu služeb na Parníku.' ],
+            'text' => [ 'Městské byty','Investovali jsme přes <span>4,7 mil. Kč</span><br> do opravy tzv. Domu služeb na Parníku.' ],
             'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_done/DSC_8194.jpg',
             'weight' => 100,
         ],
 //        [
-//            'text' => [ 'Chodníky, komunikace a parkoviště','Do plánovaných oprav chodníků a komunikací, ale i vynucených investic spojených s akcemi ŘSD a ČEZu, jsme investovaji přes <span>81,8 mil. Kč.</span>' ],
+//            'text' => [ 'Chodníky, komunikace a parkoviště','Do plánovaných oprav chodníků a komunikací, ale i vynucených investic spojených s akcemi ŘSD a ČEZu, jsme investovali přes <span>81,8 mil. Kč.</span>' ],
 //            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/test.jpeg',
 //            'weight' => 100,
 //        ],
 //        [
-//            'text' => [ 'Veřejné osvětlení', 'Investovaji jsme přes <span>37,2 mil. Kč</span><br> do osvětlení ulic Kozlovská, Husova, Podbranská, Lhotka a mnoha dalších.' ],
+//            'text' => [ 'Veřejné osvětlení', 'Investovali jsme přes <span>37,2 mil. Kč</span><br> do osvětlení ulic Kozlovská, Husova, Podbranská, Lhotka a mnoha dalších.' ],
 //            'path' => 'mestoChodcu',
 //            'photo' => 'build/website/img/test.jpeg',
 //            'weight' => 100,
 //        ],
         [
-            'text' => [ 'Dopravní terminál', 'Investovaji jsme přes <span>1,7 mil. Kč</span> do osvětlení, opravy kiosku a modernizce parkování.' ],
+            'text' => [ 'Dopravní terminál', 'Investovali jsme přes <span>1,7 mil. Kč</span> do osvětlení, opravy kiosku a modernizce parkování.' ],
             'path' => 'mestoChodcu',
             'photo' => 'build/website/img/photos_done/DSC_8155.jpg',
             'weight' => 100,
         ],
 
         [
-            'text' => [ 'Parky a veřejná prostranství', 'Investovaji jsme přes <span>12,2 mil. Kč</span><br> do údržby a výměn mobiliáře.' ],
+            'text' => [ 'Parky a veřejná prostranství', 'Investovali jsme přes <span>12,2 mil. Kč</span><br> do údržby a výměn mobiliáře.' ],
             'path' => 'zeleneMesto',
             'photo' => 'build/website/img/photos_done/DSC_8682.jpg',
             'weight' => 100,
