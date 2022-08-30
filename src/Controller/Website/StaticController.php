@@ -226,19 +226,19 @@ class StaticController extends AbstractController
 
         // TRANSPARENTNI MESTO
         [
-            'text' => [ 'Participativní rozpočet - Skuhrov', 'Investice <span>1,2 mil. Kč</span> <br>do zázemí sportovního areálu.' ],
+            'text' => [ 'Skuhrov', 'Investice <span>1,2 mil. Kč</span> <br>do zázemí sportovního areálu.' ],
             'path' => 'transpMesto',
             'photo' => 'build/website/img/photos_done/DSC_8514.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Participační rozpočet - Kozlov', 'Investice <span>2,1 mil. Kč</span> do sálu hospody a opravy komunikace.' ],
+            'text' => [ 'Kozlov', 'Investice <span>2,1 mil. Kč</span> do sálu hospody a opravy komunikace.' ],
             'path' => 'transpMesto',
             'photo' => 'build/website/img/photos_done/DSC_8217.jpg',
             'weight' => 100,
         ],
         [
-            'text' => [ 'Participační rozpočet - Svinná a Lhotka', 'Investice <span>3,6 mil. Kč</span><br> do oprav hřbitovních zdí, vybudování přístřešku s kioskem a do opravy komunikace.' ],
+            'text' => [ 'Svinná a Lhotka', 'Investice <span>3,6 mil. Kč</span><br> do oprav hřbitovních zdí, vybudování přístřešku s kioskem a do opravy komunikace.' ],
             'path' => 'transpMesto',
             'photo' => 'build/website/img/photos_done/DSC_8199.jpg',
             'weight' => 100,
