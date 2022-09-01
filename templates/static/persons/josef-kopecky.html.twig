@@ -1,0 +1,30 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <img src="{{ asset('build/website/img/mini_people/person_8.jpg') }}" class="person" alt="">
+        <div class="section-header person">
+            <div class="container">
+                <div class="text-center">
+                    <div class="btn primary xxx-large"><span>Mgr.</span> Josef Kopecký</div><br>
+                </div>
+                <br><br><br>
+                <p>Od svého narození v roce 1980 žiju v České Třebové.</p>
+                <p>Vystudoval jsem učitelství českého jazyka a dějepisu na Pedagogické fakultě Ostravské univerzity. Oboru jsem se po promoci také věnoval, byl jsem ředitelem základní školy. České školství jsem opustil v roce 2021, abych se naplno věnoval práci v městské samosprávě.</p>
+                <p>Do ODS jsem vstoupil ve svých 18 letech, kdy jsem také poprvé kandidoval v komunálních volbách. Zastupitelem jsem se stal v roce 2002, byl jsem členem rady města, od roku 2018 jsem místostarostou města Česká Třebová.</p>
+                <p>Celý život se věnuji kultuře, především divadlu, které hraji od gymnaziálních let. Mé soubory pravidelně hostují nejen po celé České republice, ale i v zahraničí. Jsem držitelem mnoha ocenění za herectví a režii. Jsem lektorem divadelních a tanečních přehlídek.</p>
+                <p>Ve svém volném čase rád čtu, zajímám se také o výtvarné umění.</p>
+                <p>V roce 2006 jsem v České Třebové zakládal klub alternativní kultury Modrý trpaslík, který jsem dlouhá léta vedl, od roku 2015 jsem ředitelem Kulturního centra Česká Třebová.</p>
+                <p>Jsem ženatý, mám dvě děti.</p>
+            </div>
+        </div>
+
+
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+    </div>
+{% endblock %}

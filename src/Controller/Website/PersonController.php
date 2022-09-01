@@ -38,4 +38,10 @@ class PersonController extends AbstractController
         ]);
     }
 
+    #[Route('/josef-kopecky', name: 'josefKopecky')]
+    public function josefKopecky(): Response
+    {
+        return $this->render('static/persons/josef-kopecky.html.twig', [
+        ]);
+    }
 }
