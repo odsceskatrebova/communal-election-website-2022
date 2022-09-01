@@ -273,12 +273,12 @@ class StaticController extends AbstractController
             // venkovni ucebna
             'weight' => 100,
         ],
-//        [
-//            'text' => [ 'Moderní knihovna', 'v areálu Svářečské školy' ],
-//            'path' => 'transpMesto',
-//            'photo' => 'build/website/img/photos_plans/.jpg',
-//            'weight' => 100,
-//        ],
+        [
+            'text' => [ 'Moderní knihovna', 'Prosadíme investici do nových prostor v očekávané výši <span>87,1 mil. Kč</span>' ],
+            'path' => 'kulturniASportovniMesto',
+            'photo' => 'build/website/img/photos_plans/knihovna.png',
+            'weight' => 300,
+        ],
         [
             'text' => [ 'Muzeum VELOREXu', 'Chceme investovat <span>19,9 mil. Kč</span><br> do rozšíření expozice Velorex. Navrhujeme přemístit depozitář do krytu CO Javorka.' ],
             'path' => 'kulturniASportovniMesto',
