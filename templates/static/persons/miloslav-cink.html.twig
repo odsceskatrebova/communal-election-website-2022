@@ -1,0 +1,25 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+    {% include 'components/layouts/menu.html.twig' with { homepage:  false } %}
+    <div class="content">
+        <img src="{{ asset('build/website/img/mini_people/person_23.jpg') }}" class="person" alt="">
+        <div class="section-header person">
+            <div class="container">
+                <div class="text-center">
+                    <div class="btn primary xxx-large"><span>Ing.</span> Miloslav Cink</div><br>
+                </div>
+                <br><br><br>
+                <p>Jsem patriot města, od narození bydlím v České Třebové. Po absolvování VŠ jsem pracoval v dopravě, poté ve státní správě, městské společnosti a v současné době je mým zaměstnavatelem Město Litomyšl. Vyrůstal jsem na fotbalovém hřišti, u kterého jsem doposud. </p>
+                <p>Sport je pro mě největší zálibou. Mohu nabídnout letité zkušenosti z bohatého profesního života. Říkám věci na rovinu, mám vlastní názor, nejsem kýval.</p>
+            </div>
+        </div>
+
+
+
+        {% include 'components/blocks/program.html.twig' %}
+
+        {% include 'components/blocks/calendar.html.twig' %}
+
+    </div>
+{% endblock %}
