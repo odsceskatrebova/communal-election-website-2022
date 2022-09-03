@@ -108,7 +108,7 @@ class StaticController extends AbstractController
             'weight' => 100,
         ],
         [
-            'text' => [ 'Fond rozvoje byldlení','Vytvořili jsme fond s počátečním vkladem <span>25 mil. Kč</span>. ' ],
+            'text' => [ 'Fond rozvoje bydlení','Vytvořili jsme fond s počátečním vkladem <span>25 mil. Kč</span>. ' ],
             'path' => 'naseMesto',
             'photo' => 'build/website/img/photos_done/DSC_8164.jpg',
             'weight' => 100,
