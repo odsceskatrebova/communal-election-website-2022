@@ -10,6 +10,7 @@
   cursor: pointer;
   text-transform: uppercase;
   &:hover {
+    text-decoration: none;
     transform: scale(1.1) skewY(-7deg);
   }
   &.secondary {

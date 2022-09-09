@@ -15,6 +15,11 @@ Encore
         to: 'img/[path][name].[hash:8].[ext]',
         // pattern: /\.(png|svg|jpg|jpeg|ico|mp4)$/,
     })
+    .copyFiles({
+        from: './assets/website/files',
+        to: 'files/[path][name].[hash:8].[ext]',
+        // pattern: /\.(png|svg|jpg|jpeg|ico|mp4)$/,
+    })
     .splitEntryChunks()
     .enableSingleRuntimeChunk()
     .cleanupOutputBeforeBuild()

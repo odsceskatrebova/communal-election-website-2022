@@ -156,6 +156,11 @@
             height: 10rem;
             text-align: center;
             transform: skewY(-6deg);
+            transition: all .2s;
+            &:hover {
+              text-decoration: none;
+              transform:skewY(-6deg) scale(2.1);
+            }
             .do {
               font-size: 2.2rem;
               line-height: 1.8rem;
